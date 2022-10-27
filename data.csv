@@ -1,2 +1,2 @@
-robot_name,image_target_location,ros_master_uri,base_dof,urdf_location,twist_topic,twist_speed
-"locobot",blah,10.0.20.3,2,blah,cmd_vel,1.5
+robot_name,image_target_location,ros_master_uri,base_dof,urdf_location,twist_topic,twist_speed,image_target_width,
+locobot,https://library.vuforia.com/sites/default/files/vuforia-library/articles/solution/Magic%20Leap%20Related%20Content/Astronaut-scaled.jpg,10.0.20.3,2,blah,cmd_vel,1.5,0.1,0.055
