@@ -1,0 +1,2 @@
+robot_name,image_target_location,ros_master_uri,base_dof,urdf_location,twist_topic,twist_speed
+"locobot",blah,10.0.20.3,2,blah,cmd_vel,1.5
