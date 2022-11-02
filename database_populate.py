@@ -12,6 +12,7 @@ db = MySQLDatabase('ar', host='71.232.14.210', port=3307, user='root', password=
 class robots(Model):
     name = CharField()
     ip_addr = CharField()
+    port = IntegerField()
     image = CharField()
     urdf = CharField()
     twist_topic = CharField()
@@ -41,6 +42,7 @@ class database_controller():
                     self.robots.create(
                         name= vals['robot_name'],
                         ip_addr = vals['ros_master_uri'],
+                        port = vals['ros_master_port'],
                         image = vals['image_target_location'],
                         urdf = vals['urdf_location'],
                         base_dof = int(vals['base_dof']),
