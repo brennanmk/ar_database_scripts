@@ -7,7 +7,7 @@ https://docs.python.org/3/library/csv.html
 from peewee import *
 import csv
 
-db = MySQLDatabase('ar', host='71.232.14.210', port=3307, user='root', password='NveQlG8bKp89hPWMdhdC6jBnd')
+db = MySQLDatabase('ar', host='98.229.202.174', port=3307, user='root', password='NveQlG8bKp89hPWMdhdC6jBnd')
 
 class robots(Model):
     name = CharField()
