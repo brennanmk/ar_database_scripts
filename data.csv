@@ -1,2 +1,2 @@
-robot_name,image_target_location,ros_master_uri,ros_master_port,base_dof,urdf_location,twist_topic,twist_speed,image_target_width,
-locobot,https://www.eecs.tufts.edu/~bmille12/images/Astronaut-scaled.jpg,10.0.60.2,10000,2,blah,cmd_vel,1.5,0.1,0.055
+robot_name,image_target_location,ros_master_uri,ros_master_port,base_dof,urdf_location,twist_topic,twist_speed,image_target_width,multi_target_dataset,multi_target_name,affect_topic
+Aloy,https://www.eecs.tufts.edu/~bmille12/images/Astronaut-scaled.jpg,172.20.197.189,10000,2,blah,cmd_vel,1.5,0.1,https://www.eecs.tufts.edu/~bmille12/dataset/SENSAR,Aloy_Cube,/affect

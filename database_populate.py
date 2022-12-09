@@ -19,6 +19,10 @@ class robots(Model):
     twist_speed = FloatField()
     base_dof = IntegerField()
     image_target_width = FloatField()
+    multi_target_dataset = CharField()
+    multi_target_name = CharField()
+    affect_topic = CharField()
+
     class Meta:
 
         database = db
@@ -49,6 +53,9 @@ class database_controller():
                         twist_topic = vals['twist_topic'],
                         twist_speed = float(vals['twist_speed']),
                         image_target_width = float(vals['image_target_width']),
+                        multi_target_dataset = vals['multi_target_dataset'],
+                        multi_target_name = vals['multi_target_name'],
+                        affect_topic = vals['affect_topic']
                     ).save()
     
 if __name__ == '__main__':
